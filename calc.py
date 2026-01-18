@@ -10,6 +10,12 @@ def multiply(x, y):
     """Returns the product of x and y."""
     return x * y
 
+def divide(x, y):
+    """Returns the quotient of x and y. Handles division by zero."""
+    if y == 0:
+        return "Error: Cannot divide by zero."
+    return x / y
+
 def main():
     print("--- Python Calculator ---")
     print("Select operation:")
