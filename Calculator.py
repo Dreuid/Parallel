@@ -2,6 +2,10 @@ def add(x, y):
     """Returns the sum of x and y."""
     return x + y
 
+def subtract(x, y):
+    """Returns the difference of x and y."""
+    return x - y
+
 def main():
     print("--- Python Calculator ---")
     print("Select operation:")
