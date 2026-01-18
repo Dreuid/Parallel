@@ -16,7 +16,7 @@ def main():
         choice = input("\nEnter choice (1/2/3/4) or 'q' to quit: ")
 
         # Check if user wants to quit
-        if choice.lower() == 'q':
+        if choice.lower() == 'q':d
             print("Exiting calculator. Goodbye!")
             break
 
