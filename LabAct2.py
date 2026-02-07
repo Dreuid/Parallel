@@ -46,3 +46,10 @@ if name == "main":
     #Run Multithreading
     print("\nStarting Multithreading...")
     thread_time = run_experiment("Multithreading", user_grades)
+    
+    print("\nStarting Multiprocessing...")
+    process_time = run_experiment("Multiprocessing", user_grades)
+
+    print(f"\n--- Results ---")
+    print(f"Threading Time: {thread_time:.4f}s")
+    print(f"Processing Time: {process_time:.4f}s")
