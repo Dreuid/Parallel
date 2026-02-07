@@ -39,3 +39,10 @@ def run_experiment(method_type, grades):
         
     end_time = time.perf_counter()
     return end_time - start_time
+
+if name == "main":
+    user_grades = get_user_inputs()
+
+    #Run Multithreading
+    print("\nStarting Multithreading...")
+    thread_time = run_experiment("Multithreading", user_grades)
