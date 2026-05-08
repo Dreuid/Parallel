@@ -35,4 +35,4 @@ Before our pivot, we observed two critical issues: severe data inconsistencies (
 To fulfill synchronization requirements and prevent terminal overlapping or race conditions during data transmission, we utilized a `Lock()` from the `multiprocessing` library. We wrapped the worker's transmission phase inside a `with lock:` critical section. This ensured workers waited their turn to securely send their processed orders back to the master.
 
 ## Execution Proof
-* <img width="400" height="225" alt="Lab1 for final term PDC GROUP" src="https://github.com/user-attachments/assets/444c07a9-407e-400c-8b0d-ee9c8c38f243" /> *
+*<img width="400" height="225" alt="Lab1 for final term PDC GROUP" src="https://github.com/user-attachments/assets/444c07a9-407e-400c-8b0d-ee9c8c38f243" />*
