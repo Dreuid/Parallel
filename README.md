@@ -1,10 +1,10 @@
 # Distributed Order Processing Challenge
 
 ## Team Members
-* Lorenz Lacanaria
-* Nash Andrew Bondoc
-* James Henry Emorricha
-* Kyle Martin Sarmiento
+* Lorenz Lacanaria (Dreuid)
+* Nash Andrew Bondoc (nathanjargon)
+* James Henry Emorricha (j4mesh3nry)
+* Kyle Martin Sarmiento (slimetamer1)
 
 ## Project Overview
 This project simulates a system where a master process generates customer orders and distributes them to multiple worker processes. It demonstrates concurrent execution, process coordination, and safe handling of shared data across isolated memory spaces.
